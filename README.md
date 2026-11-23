@@ -1,5 +1,7 @@
 # Agentic Software Engineering
-A set of handwritten and reusable tools, templates and components for agentic software architecture and software engineering.
+A set of handwritten and reusable tools, templates and components for agentic software architecture and software engineering. 
+
+Everything in this repo is written by a software architecture practitioner. Use it to increase product quality and trust from stakeholders, team members and users. Use the templates as part of a structured software design, development and delivery pipeline.  
 
 ## Templates
 
