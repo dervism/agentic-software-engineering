@@ -1,5 +1,5 @@
 # Agentic Software Engineering
-A set of handwritten and reusable tools, templates and components for agentic software engineering.
+A set of handwritten and reusable tools, templates and components for agentic software architecture and software engineering.
 
 ## Templates
 
