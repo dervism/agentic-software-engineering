@@ -11,7 +11,7 @@ A set of handwritten and reusable tools, templates and components for agentic so
 
 # License
 
-All of the content of "Agentic Software Engineering" is free software under the GNU General Public License, version 3 or (at your option) any later version (GPL-3.0-or-later). The full text is in (LICENSE)[LICENSE].
+All of the content of "Agentic Software Engineering" is free software under the GNU General Public License, version 3 or (at your option) any later version (GPL-3.0-or-later). The full text is in [LICENSE](LICENSE).
 
 Copyright (C) 2026 Dervis Mansuroglu.
 
