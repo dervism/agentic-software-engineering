@@ -22,7 +22,7 @@ Ask {AGENT_MODEL_NAME} for an independent deep review of the current overall sys
 
 {ATTRIBUTE_LIST_COMMA_SEPARATED = https://quality.arc42.org/qualities/}
 
-## Consider the use of open standards (see the relevant):
+## Consider the use of open standards:
 
 * ISO25010, Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — Product Quality Model (quality attributes)
 * ATDM2, Automated Technical Debt Measure" specification v2
