@@ -20,7 +20,7 @@ Ask {AGENT_MODEL_NAME} for an independent deep review of the current overall sys
 4. Access the architecture: Suggest simplifications, and identify architectural smells and anti-patterns
 5. Suggest improvements: Simplify code, delete code, adopting emerging tech to better align with the given quality attributes in item 3.
 
-{ATTRIBUTE_LIST_COMMA_SEPARATED = https://quality.arc42.org/qualities/}
+{ATTRIBUTE_LIST_COMMA_SEPARATED = https://quality.arc42.org/qualities/ }
 
 ## Consider principles from open standards:
 
