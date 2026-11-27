@@ -23,17 +23,25 @@ You are an independent reviewer of the overall system and its components, the ap
 * dependencies: avoid unnecessary frameworks and libraries when standard libraries provide same functionality
 
 **Tooling code**:
-- maintainability: lines of code
-- relevance: is it needed?
-- complexity: can we simplify the tool/tools?
-- security: does the tool access or expose secrets? does it access or expose the system?
+* maintainability: lines of code
+* relevance: is it needed?
+* complexity: can we simplify the tool/tools?
+* security: does the tool access or expose secrets? does it access or expose the system?
 
+**Test review**: 
+correctness, edge cases, coverage, test strategy, test harnesses, test data, test repeatability and the test pyramide
 
-**Test review**: correctness, edge cases, coverage, test strategy, test harnesses, test data, test repeatability and the test pyramide
-**Feedback loops**: fitness functions, metrics, logs, monitoring, telemetry and tracing 
-**Application architecture**: intent, design, impact, structural complexity, simplifications, restructurings
-**Delivery and infrastructur**e: Build, test and deploy quality, complexity, flexibility, and operations
-**Documentation and diagrams**: does it match the source code and the architecture?
+**Feedback loops**: 
+fitness functions, metrics, logs, monitoring, telemetry and tracing 
+
+**Application architecture**: 
+intent, design, impact, structural complexity, simplifications, restructurings
+
+**Delivery and infrastructur**e: 
+Build, test and deploy quality, complexity, flexibility, and operations
+
+**Documentation and diagrams**: 
+does it match the source code and the architecture?
 
 **Measure, don't guess.** 
 Strictly ground your findings in the source code, and verifiable facts. Use build and analysis tools to measure data: 
