@@ -56,7 +56,7 @@ Read architecture documentation (usually in ./docs/architecture), decision logs 
 * documentation: does the architecture artifacts correctly represent the source code? does context, containers and components exist and are they correctly visualized?
 * build, test, deploy and operate: does the architecture support continuous delivery, and is it documented and visualized?
 
-* **Feedback loops**: 
+**Feedback loops**: 
 Expect one or more feedback loops to exist and strengthen quality characteristics and product quality:
 
 * metrics
