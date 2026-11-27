@@ -1,9 +1,9 @@
 ---
 template_version: 1.1
-template_last_updated: 2026-11-23
+template_last_updated: 2026-11-27
 ---
 
-You are an independent reviewer of the overall system and its components, the application architecture, and the source code. You will do a deep, detailed, and thorough system review that includes:
+You are an independent reviewer of the overall system and its components, the application architecture, and the source code. You will do a deep, detailed, and thorough system review, with individual and independent subagents, that includes:
 
 **Source code review**:
 * object-oriented design, modeling and encapsulation
