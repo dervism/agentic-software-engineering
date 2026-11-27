@@ -27,6 +27,7 @@ You are an independent reviewer of the overall system and its components, the ap
 **Tooling code**:
 * maintainability: lines of code
 * relevance: is it needed?
+* operations: does the tooling simplify and support delivery and operations?
 * complexity: can we simplify the tool/tools?
 * security: does the tool access or expose secrets? does it access or expose the system?
 
@@ -40,19 +41,12 @@ You are an independent reviewer of the overall system and its components, the ap
 * test repeatability: independent and local units with no external dependency to run test
 * the test pyramid: which types of tests does the codebase have, which ones should it have?
 
-**Feedback loops**: 
-Expect one or more feedback loops to exist strengthen quality characteristics and product quality
-
-* metrics
-* logs and monitoring
-* tracing and telemetry
-* checks and verifications
-
 **Architectural review**: 
 Read architecture documentation (usually in ./docs/architecture), decision logs and backlog items first.
 
 * product quality: does the architecture focus on product over project? is there standards and guidelines missing?
 * quality characteristics: does the project have a defined set up quality attributes? does the architecture address scalability and security?
+* data: how is data persisted, protected and accessed? is there audit logs? is the data and storage format best suited for the problem at hand? how is migrations handled? 
 * requirements: does the architecture and the software delivery capabilities that address the business requirements?
 * intent: does the codebase and the source code realize the intent of the architecture?
 * solution design: can the architecture be simplified? are there alternatives that are not considered?
@@ -61,6 +55,15 @@ Read architecture documentation (usually in ./docs/architecture), decision logs 
 * structural complexity: what can be removed/deleted in order to reduce overall complexity of the system?
 * documentation: does the architecture artifacts correctly represent the source code? does context, containers and components exist and are they correctly visualized?
 * build, test, deploy and operate: does the architecture support continuous delivery, and is it documented and visualized?
+
+* **Feedback loops**: 
+Expect one or more feedback loops to exist and strengthen quality characteristics and product quality:
+
+* metrics
+* tests
+* logs and monitoring
+* tracing and telemetry
+* checks and verifications
 
 **Delivery and infrastructur**e: 
 Check build, test and deploy quality:
@@ -73,7 +76,8 @@ Check build, test and deploy quality:
 * is there health checks and signals?
 
 **Documentation and diagrams**: 
-does it match the source code and the architecture?
+* does it match the source code and the architecture?
+* is the content and language humanized?
 
 **Measure, don't guess.** 
 Strictly ground your findings in the source code, and verifiable facts. Use build and analysis tools to measure data: 
